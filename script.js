@@ -26,6 +26,12 @@ window.onload = function()
         animatedElement = n;
       }
     }
+    
+    // Scroll Up Animation for My Name
+    myName.style.animation = "nameAnimate 1s .8s 1 forwards";
+    
+    // Scroll Up Animation for Menu
+    menu[0].style.animation = "zoomIn .5s 1.3s 1 forwards";
   }
   
   isMenuShowing = false;

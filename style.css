@@ -92,8 +92,6 @@ h1, h2
   -webkit-box-shadow: var(--first-shadow);
   box-shadow: var(--first-shadow);
   opacity: 0;
-  -webkit-animation: nameAnimate 1s 1s 1 forwards;
-  animation: nameAnimate 1s 1s 1 forwards;
   -webkit-transition: 1s;
   -o-transition: 1s;
   transition: 1s;
@@ -138,8 +136,6 @@ h1, h2
   margin: 0 10px;
   padding: 1px;
   opacity: 0;
-  -webkit-animation: zoomIn .5s 1.5s 1 forwards;
-  animation: zoomIn .5s 1.5s 1 forwards;
   -webkit-transition: 1s;
   -o-transition: 1s;
   transition: 1s;
