@@ -177,6 +177,7 @@ function hideMenu()
   setTimeout(function()
   {
     document.documentElement.style.overflow = "auto";
+    document.body.removeChild(menuItemsContainer);
   }, 1000);
 }
 
